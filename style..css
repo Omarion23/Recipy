@@ -1,0 +1,79 @@
+body{
+    background-color: darkgray; 
+    
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+header{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+.head{
+    float: left;
+    color: coral;
+    font-family: cursive;   
+}
+
+nav{
+    float: right;
+}
+
+li{
+    padding:lrem;
+ }
+
+ li a{
+     color: rgb(22, 15, 15);
+     font-weight: bold;
+ }
+
+ .active{
+     color:salmon;
+
+
+ }
+
+.container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 1%;
+}
+
+showcase h1{
+    color:black;
+    font-family: cursive;
+    text-align: left;
+}
+
+showcase h2{
+    color: #fff;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.btn{
+    background-color: coral;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-left: 45%;
+    text-align: left;
+}
+
+.nutrition li{
+    font-weight: bold;
+}
+
+.Ingredients li{
+    font-weight:bold ;
+   
+}
+
+.Instructions li{
+    font-weight: bold;
+}
+
