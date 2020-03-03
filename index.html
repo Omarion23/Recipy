@@ -3,129 +3,197 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>recipy project</title>
+    <link href='https://fonts.googleapis.com/css?family=Rajdhani:400,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style..css">
+    <title>recipy project</title>
   </head>
   <body>
 
 <!-- HEADER  -->
+<div class="container-fluid" id="intro">
 
-    <header>
-      <div class="head">
-        <h2>ALEXI'S</h2>
-        
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+    <div class="container">
+     <a class="navbar-brand" href="#"><h1>ALEXI'S</h1></a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+         <div class="navbar-nav ml-auto">
+               <a class="nav-item nav-link active" href="#">HOME<span class="sr-only">(current)</span></a>
+               <a class="nav-item nav-link" href="#about">ABOUT</a>
+               <a class="nav-item nav-link" href="#nutrition">NUTRITION</a>               
+         </div>
+     </div>
+ 
+    </div>
+ </nav>
+    
+    <!--Jumbotron containing main message-->	
+    <div class="container">
+      <div class="jumbotron text-center ">
+            <p class="lead ">Welcome To Our</p>
+            <h1 class="display-4">SWEET POTATO </h1>
+            <p class="lead ">Salmon Cakes</p>
+            <p class="lead ">
+            <a class="btn btn-primary contact-primary-button " href="#about" role="button">Learn more</a></p>
       </div>
-<!--NAVIGATION-->
-     <nav>
-       <ul>
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="#"></a>About</li>
-        <li><a href="#"></a>Services</li>
-        <li><a href="#"></a>Contacts</li>
-        
-       </ul>
-     </nav>
-
-     
-
-     <ul>
-
-        <li></li>
-
-     </ul>     
-
-<!--END OF NAVIGATION -->     
-   </header>
-<!--END OF HEADER-->
-
-<!--SHOWCASE-->
-
-<showcase>
-  <div class="container">
-    <h1>Sweet Potato Salmon Cakes</h1>
-    <p>Healthy sweet potato salmon cakes that take just 15 minutes to make!<br> They’re flavorful, crispy on the outside, and perfectly moist thanks to the sweet potato. <br>Serve with your favorite salad, veggies, and grains!
-
-    </p>
-    <div class="salmon">
-    <img src="salmon.png" alt="">
-
     </div>
 
-  </div>
-
-</showcase>
-<!--END OF SHOWCASE-->
-
-      <a href="#"><button class="btn">More Information</button></a>
+</div>
 
 
-     
+<!--END OF NAVIGATION -->   
+<!--===================================================================================--> 
+
+<div class="container topPadding" >
+  <div class="row">
+     <div class="col-md-6  col-sm-12"id="about">
+       <h2> Sweet Potato Salmon Cakes</h2>
+        
+       <p>Healthy sweet potato salmon cakes that take just 15 minutes to make!
+        They’re flavorful, crispy on the outside, and perfectly moist thanks to the sweet potato.
+        Serve with your favorite salad, veggies, and grains. 
+          </p>
+         <hr>
+         <h3>Ingredients</h3> 
+         <ul>
+              <li>1/2 cup cooked quinoa I used red for this recipe because I liked the color</li>
+              <li>1 medium sweet potato boiled and mashed</li>
+              <li>1 6 oz can wild salmon (skinless and boneless if possible)</li>
+              <li>2 large eggs</li>
+              <li>4 green onions minced</li>
+              <li>2 tablespoons gluten-free cornmeal</li>
+              <li>Salt & pepper to taste</li>
+              <li>Oil for cooking</li>  
+       </ul>
        <hr>
+       <h3>Instructions</h3>
+        <ol>
+          <li>Add all the ingredients in a large mixing bowl and mix with a wooden spoon (or your hands!) until everything is combined and a dough has formed.</li>
+          <li>Form the dough into 6 patties, place on a plate and set aside.</li>
+          <li>Heat the oil in a 10" skillet over medium heat. Saute the salmon cakes for 3 - 5 minutes per side, until browned, crispy and heated through.</li>
+          <li>Serve warm with your desired dipping sauce (we used guacamole with sriracha mixed in)</li>
+        </ol>
+     </div>
+     <div class="col-md-6  col-sm-12 ">
+       <img src="salmon.png" class="img-fluid img-thumbnail" alt="">
+    </div>
+  </div>
+</div>
 
-     <h3>Ingredients</h3> 
+<!--====================================================================================-->
+<div class=" container-fluid backcolor topPadding"id="nutrition">
+  <div class="container ">
+    <h2>Nutrition</h2>
+    <hr>
+     <table class="table table-sm table-borderless">
+       <thead>
+         <tr >
+           <th>Nit</th>
+           <th>Kilograms</th>
+           <th>Percentage %</th>
+           <th></th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td>Fat</td>
+           <td>6g</td>
+           <td>9%</td>
+         </tr>
 
-     <ul class="Ingredients">
-     <ul>
+         <tr>  
+           <td>Cholesterol</td>
+           <td>70mg</td>
+           <td>23%</td>
+         </tr>
+         <tr> 
+           <td>Sodium</td>
+           <td>96mg</td>
+           <td>4%</td>
+         </tr>
 
-          <li>1/2 cup cooked quinoa I used red for this recipe because I liked the color</li>
-          <li>1 medium sweet potato boiled and mashed</li>
-          <li>1 6 oz can wild salmon (skinless and boneless if possible)</li>
-          <li>2 large eggs</li>
-          <li>4 green onions minced</li>
-          <li>2 tablespoons gluten-free cornmeal</li>
-          <li>Salt & pepper to taste</li>
-          <li>Oil for cooking</li>  
+         <tr>  
+           <td>Potassium</td>
+           <td>291mg</td>
+           <td>8%</td>
+         </tr>
 
-   </ul>
+         <tr>  
+           <td>Carbohydrates</td>
+           <td>10g</td>
+           <td>3%</td>
+         </tr>
 
-   <hr>
-     
-   <h3>Nutrition</h3>
+         <tr>  
+           <td>Fiber</td>
+           <td>1g</td>
+           <td>4%</td>
+         </tr>
 
-   <ol class="nutrition">
+         <tr> 
+           <td>Sugar</td>
+           <td>1g</td>
+           <td>1%</td>
+         </tr>
 
-    <li>Fat 6g                 9%</li>
-    <li>Cholesterol 70mg       23%</li>
-    <li>Sodium 96mg            4%</li>
-    <li>Potassium 291mg        8%</li>
-    <li>Carbohydrates 10g      3%</li>
-    <li>Fiber 1g               4%</li>
-    <li>Sugar 1g               1%</li>
-    <li>Protein 8g             16%</li>
-    <li>Vitamin A 3245IU       65%</li>
-    <li>Vitamin C 2.1mg        3%</li>
-    <li>Calcium 26mg           3%</li>
-    <li>Iron 1.1mg             6%</li>  
+         <tr>  
+           <td>Protein</td>
+           <td>8g</td>
+           <td>16%</td>
+         </tr>
 
-   </ol>
+         <tr>  
+           <td>Vitamin A</td>
+           <td>3245IU</td>
+           <td>65%</td>
+         </tr>
 
-   <hr>
+         <tr>    
+           <td>Vitamin C</td>
+           <td>2.1mg </td>
+           <td>3%</td>
+         </tr>
 
-   <h3>Instructions</h3>
+         <tr>            
+           <td>Calcium</td>
+           <td>26mg</td>
+           <td>3%</td>
+         </tr>
 
-   <ol class="Instructions">
+         <tr>  
+           <td>Iron</td>
+           <td>1.1mg</td>
+           <td>6%</td>
+         </tr>
 
-       <li>Add all the ingredients in a large mixing bowl and mix with a wooden spoon (or your hands!) until everything is combined and a dough has formed.</li>
-       <li>Form the dough into 6 patties, place on a plate and set aside.</li>
-       <li>Heat the oil in a 10" skillet over medium heat. Saute the salmon cakes for 3 - 5 minutes per side, until browned, crispy and heated through.</li>
-       <li>Serve warm with your desired dipping sauce (we used guacamole with sriracha mixed in)</li>
-       <li>Enjoy!</li>
+       </tbody>
+     </table>
+</div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow70.png" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();</script>
+<noscript>Not seeing a <a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+
+<footer class="site-footer">
+  <div class="container">
+      <div class="text-center text-white">
+          <p class="copyright-text">Copyright &copy; 2020 Salmon Cakes</p>
+      </div>
+  </div>
+ 
+</footer>
 
 
-       
-       
-      </ol>
 
-
-
-
-
-
-
-
-
-
-
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 </html>  
